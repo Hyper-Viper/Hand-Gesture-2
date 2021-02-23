@@ -35,6 +35,7 @@ function switchonoff(){
           png_quality:90
         });
         Webcam.freeze();
+        capt.style.cursor = "not-allowed";
         freezed = true;
     }
 }
